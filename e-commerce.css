@@ -1,0 +1,127 @@
+body{
+    background-color: #fff0f0;
+}
+.logo{
+    height:100px;
+    width: 100px;
+    padding: 25;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px 20px;
+    background: #fff0f0;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 30px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: black;
+    transition: 0.3s ease;
+
+}
+#navbar li a:hover{
+    color: #ff00006f;
+    
+}
+#counter{
+    height: 12px;
+}
+#para1{
+    padding: 100px 0;
+
+}
+.model{
+    width: 800px;
+    height:800px;
+    border-radius: 50px;
+    
+}
+.front{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    padding: 50px 0;
+    background: #ebe5ed;
+    border-radius: 10px;
+
+}
+.para1{
+     font-size: 50px;
+     font-weight: 600px;
+     padding: 100px 0;
+     color: rgb(2, 45, 94);
+}
+.product{
+    background-color: #fff0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+}
+.s1{
+    height: 300px;
+    width: 300px;
+    color: rgb(153, 183, 34);
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    
+
+}
+.p1{
+    
+    font-size: 25px;
+
+}
+.product a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease;
+}
+.price{
+    font-size: 20px;
+}
+.email{
+    padding: 20px;
+    background: #00000035;
+    border-radius: 20px 20px 0px 0px;
+}
+.message{
+    font-size: 25px;
+}
+.logo2{
+    height: 100px;
+    width:100px;
+    border-radius: 30px;
+}
+.inputbtn{
+    font-size: 27px;
+    border-radius: 5px;
+}
+.btngreater{
+    font-size: 27px;
+    border-radius: 5px;
+}
+.lets{
+    font-size:  30px;
+    text-align: center;
+}
