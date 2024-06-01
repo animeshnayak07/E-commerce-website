@@ -125,3 +125,102 @@ body{
     font-size:  30px;
     text-align: center;
 }
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: larger;
+    background: rgba(255, 255, 0, 0.89);
+    margin-top: 100px;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: rgba(255, 213, 0, 0.913);
+
+}
+.productbox{
+    padding: 0px , 20px;
+    background: #f7dddd;
+    margin: 12px;
+    border-radius: 12px;
+}
+
+.total,.totalprice{
+    font-size: 30px;
+    margin: 30px;
+    text-align: end;
+}
+.shirt1,.shirt2,.shirt3,.shirt4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.quantity{
+    height: 30px;
+    width: 150px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.delbtn{
+    height: 30px;
+    width: 150px;
+    background: #ef8b6c;
+    border-radius: 12px;
+}
+.delbtn:hover{
+    background-color: #eaaf9d;
+}
+.price{
+    font-size: 20px;
+}
+.productbox{
+    padding: 0px , 20px;
+    background: #f7dddd;
+    margin: 12px;
+    border-radius: 12px;
+}
+.ts1{
+    height: 100px;
+    margin-left: 30px;
+    border-radius: 12px;
+}
+.total,.totalprice{
+    font-size: 30px;
+    margin: 30px;
+    text-align: end;
+}
+.shirt1,.shirt2,.shirt3,.shirt4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.quantity{
+    height: 30px;
+    width: 150px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.delbtn{
+    height: 30px;
+    width: 150px;
+    background: #ef8b6c;
+    border-radius: 12px;
+}
+.delbtn:hover{
+    background-color: #eaaf9d;
+}
+.price{
+    font-size: 20px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin: 30px;
+}

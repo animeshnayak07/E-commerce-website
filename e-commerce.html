@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="e-commerce.css">
     <script src="https://kit.fontawesome.com/eb3f76d1a3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
-    <script src="cartadd.js"></script>
+    <script defer src="cartadd.js"></script>
 </head>
 <body>
     <section id="header">
@@ -30,11 +30,54 @@
     <h1 class="h1">Our Products</h1>
     <div class="product">
        
-        <a href="shirt1.html" ><img src="shirt1.png.png" class="s1" alt=""><p class="p1">Floral printed shirt1</p><p class="price">$1</p></a>
-        <a href="shirt2.html" ><img src="shirt2.png.png" class="s1" alt=""><p class="p1">Floral printed shirt2</p><p class="price">$13</p></a>
-        <a href="shirt3.html" ><img src="shirt3.png.png" class="s1" alt=""><p class="p1">Floral printed shirt3</p><p class="price">$20</p></a>
-        <a href="shirt4.html" ><img src="shirt4.png.png" class="s1" alt=""><p class="p1">Floral printed shirt4</p><p class="price">$10</p></a>
+        <div><img src="shirt1.png.png" class="s1" alt=""><p class="p1">Floral printed shirt1</p><div class = "one"><p>$12</p><button class = "btn">Add To Cart</button></div></div>
+        <div><img src="shirt2.png.png" class="s1" alt=""><p class="p1">Floral printed shirt2</p><div class = "one"><p>$13</p><button class = "btn">Add To Cart</button></div></div>
+        <div><img src="shirt3.png.png" class="s1" alt=""><p class="p1">Floral printed shirt3</p><div class = "one"><p>$20</p><button class = "btn">Add To Cart</button></div></div>
+        <div><img src="shirt4.png.png" class="s1" alt=""><p class="p1">Floral printed shirt4</p><div class = "one"><p>$10</p><button class = "btn">Add To Cart</button></div></div>
     </div>
+    <div>
+        <h1 class="h1">Product</h1>
+        <div class="heading">
+            <p>Items</p>
+            <p>Price</p>
+            <p>Quantity</p>
+            <p>Remove</p>
+        </div>
+        <div class="productbox">
+            <div class="shirt1">
+                <img src="shirt1.png.png" class="ts1">
+                <p class = "price">$1</p>
+                <input type="number" class="quantity" value="1">
+                <button class = "delbtn">Remove</button>
+            </div>
+        
+            <div class="shirt2">
+                <img src="shirt2.png.png" class="ts1">
+                <p class = "price">$2.12</p>
+                <input type="number" class="quantity" value="1">
+                <button class = "delbtn">Remove</button>
+            </div>
+        
+            <div class="shirt3">
+                <img src="shirt3.png.png" class="ts1">
+                <p class = "price">$3</p>
+                <input type="number" class="quantity" value="1">
+                <button class = "delbtn">Remove</button>
+            </div>
+        </div>
+        <div class="productbox">
+            <div class="shirt4">
+                <img src="shirt4.png.png" class="ts1">
+                <p class = "price">$4</p>
+                <input type="number" class="quantity" value="1">
+                <button class = "delbtn">Remove</button>
+            </div>
+        </div>
+        <p class="total">Total</p>
+        <p class = "totalprice">$12</p>
+
+    </div>
+    
     <div class="email">
         <img src="logo.jpg" class="logo2">
         <p class = "message">Subscribe to our email alerts</p>
